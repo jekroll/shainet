@@ -5,12 +5,16 @@ authors:
   - Bar Hofesh <bar.hofesh@neuralegion.com>
   - Art Linkov <art.linkov@neuralegion.com>
 
-crystal: 0.35.1
+crystal: 0.36.0
 
 dependencies:
   apatite:
     github: watzon/apatite
     branch: master
+  logger:
+    github: crystal-lang/logger.cr
+  json_mapping:
+    github: crystal-lang/json_mapping.cr
 
 development_dependencies:
   ameba:
